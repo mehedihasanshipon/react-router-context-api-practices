@@ -6,8 +6,7 @@ import Post from './components/Post/Post';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import NoMatch from './components/NoMatch/NoMatch';
 import Header from './components/Header/Header';

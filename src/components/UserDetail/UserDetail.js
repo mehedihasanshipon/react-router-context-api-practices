@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const UserDetail = (props) => {
-    const {email,gender,id,location,picture} = props.user;
+    const {email,gender,location,picture} = props.user;
     const {first} = props.user.name;
     // console.log(first)
     return (

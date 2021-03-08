@@ -1,5 +1,4 @@
-import React, { useContext } from 'react';
-import { createCategory } from '../../App';
+
 
 const CategoryDetail = (props) => {
     const {name,category} = props.product;
